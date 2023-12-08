@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Rimalise</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--MainCSS	-->
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+
+
+	
+<!--GoogleFonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+	
+<!--jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+			<script src="JavaScript/use_sp-nuv.js"></script>
+				<script src="JavaScript/use_smoothscroll.js"></script>
+
+
+	
+	
+	
+<!--Swiper:スライダーCDN-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+	
+	<!--scrollify:スクロールCDN-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js" integrity="sha512-UyX8JsMsNRW1cYl8BoxpcamonpwU2y7mSTsN0Z52plp7oKo1u92Xqfpv6lOlTyH3yiMXK+gU1jw0DVCsPTfKew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	
+	<!--processing5-->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+	<script src="JavaScript/use_sketch.js"></script>
+
+
+	
+</head>
+	
+	
+<body>
+<div class="header-wrapper">
+		<header>
+				<a href="#" class="close" id="logo_wrp"><img id="logo_top" src="image/logo_type.png" alt=""></a>
+			<nav class="pc_nav">
+				<ul>
+					<li><a href="#company">COMPANY</a></li>
+					<li><a href="#news">NEWS</a></li>
+					<li><a href="#access">ACCESS</a></li>
+					<li><a href="#access">SERVICE</a></li>
+					<li><a href="#access">RECRUIT</a></li>
+				</ul>
+			</nav>
+			<nav class="sp-nav">
+   <ul>
+			  <li><a href="#company">COMPANY</a></li>
+			   <li><a href="#news">NEWS</a></li>
+	   <li><a href="#access">ACCESS</a></li>
+			   <li><a href="#access">SERVICE</a></li>
+			   <li><a href="#access">RECRUIT</a></li>
+      <li class="close"><span>閉じる</span></li>
+   </ul>
+ </nav>
+			<div id="hamburger">
+      <span></span>
+   </div>
+		</header>
+	</div>
+
+
+	
+	<div class="d-demo">
+  <div class="d-demo__slider">
+    <!-- 本体swiper-->
+	<div class="swiper-container swiper-container-main js-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide d-demo__slide">
+          <div class="d-demo__slide-bg" style="background-image: url('image/header_slider_01.png');" data-swiper-parallax-x="90%"></div>
+          <div class="d-demo__slide-heading">
+            <h3 class="d-demo__slide-ttl">TEAMWORK</h3>
+            <p class="d-demo__slide-txt" data-swiper-parallax-x="30%" data-swiper-parallax-opacity="0">Teamwork is the collaborative effort of a group to achieve a common goal or to complete a task in the most effective and efficient way. This concept is seen within the greater framework of a team, which is a group of interdependent individuals who work together towards a common goal. The four key characteristics of a team include a shared goal, interdependence, boundedness and stability, the ability to manage their own work and internal process, and operate in a bigger social system. Basic requirements for effective teamwork are an adequate team size. The context is important, and team sizes can vary depending upon the objective.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide d-demo__slide">
+          <div class="d-demo__slide-bg" style="background-image: url('image/header_slider_03.png');" data-swiper-parallax-x="90%"></div>
+          <div class="d-demo__slide-heading">
+            <h3 class="d-demo__slide-ttl">SOCIETY</h3>
+            <p class="d-demo__slide-txt" data-swiper-parallax-x="30%" data-swiper-parallax-opacity="0">A society is a group of individuals involved in persistent social interaction, or a large social group sharing the same spatial or social territory, typically subject to the same political authority and dominant cultural expectations. Societies are characterized by patterns of relationships (social relations) between individuals who share a distinctive culture and institutions; a given society may be described as the sum total of such relationships among its constituent members. In the social sciences, a larger society often exhibits stratification or dominance patterns in subgroups.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide d-demo__slide">
+          <div class="d-demo__slide-bg" style="background-image: url('image/header_slider_02.png');" data-swiper-parallax-x="90%"></div>
+          <div class="d-demo__slide-heading">
+            <h3 class="d-demo__slide-ttl">NETWORK</h3>
+            <p class="d-demo__slide-txt" data-swiper-parallax-x="30%" data-swiper-parallax-opacity="0">A computer network is a set of computers sharing resources located on or provided by network nodes. Computers use common communication protocols over digital interconnections to communicate with each other. These interconnections are made up of telecommunication network technologies based on physically wired, optical, and wireless radio-frequency methods that may be arranged in a variety of network topologies.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide d-demo__slide">
+          <div class="d-demo__slide-bg" style="background-image: url('image/header_slider_04.png');" data-swiper-parallax-x="90%"></div>
+          <div class="d-demo__slide-heading">
+            <h3 class="d-demo__slide-ttl">TECHNOLOGY</h3>
+            <p class="d-demo__slide-txt" data-swiper-parallax-x="30%" data-swiper-parallax-opacity="0">Technology is the application of knowledge for achieving practical goals in a reproducible way. The word technology can also mean the products resulting from such efforts, including both tangible tools such as utensils or machines, and intangible ones such as software. Technology plays a critical role in science, engineering, and everyday life.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /本体swiper-->
+    <!-- サムネイルswiper-->
+    <div class="swiper-container swiper-container-nav js-slider-nav" style="--swiper-navigation-color: #000">
+      <div class="swiper-wrapper" role="navigation">
+        <div class="swiper-slide d-demo__nav">
+          <div class="d-demo__nav-bg" style="background-image: url('image/header_slider_04.png');">
+            <div class="d-demo__nav-heading">
+              <p class="d-demo__nav-ttl">TECHNOLOGY</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide d-demo__nav">
+          <div class="d-demo__nav-bg" style="background-image: url('image/header_slider_01.png');">
+            <div class="d-demo__nav-heading">
+              <p class="d-demo__nav-ttl">TEAMWORK</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide d-demo__nav">
+          <div class="d-demo__nav-bg" style="background-image: url('image/header_slider_03.png');">
+            <div class="d-demo__nav-heading">
+              <p class="d-demo__nav-ttl">SOCIETY</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide d-demo__nav">
+          <div class="d-demo__nav-bg" style="background-image: url('image/header_slider_02.png');">
+            <div class="d-demo__nav-heading">
+              <p class="d-demo__nav-ttl">NETWORK</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <!-- /サムネイルswiper-->
+  </div>
+</div>
+	
+  <!-- 前後の矢印 -->
+
+
+	
+	
+	
+<main class="col12">
+  <section class="scrollify" id="null_scollify">
+	</section>
+	<section class="col10 main_col main_company scrollify">
+        <h1 class="main_center" id="company">COMPANY</h1>
+        <section class="top_main_left clearfix l-section">
+          <div id="main_com01">
+            <img src="image/company_01.png" width="667" height="500" alt=""/>
+            
+            <h2><span>デジタル革新の</span><span>先駆者</span></h2>
+            <p>私たちはインターネット産業のパイオニアであり、常に変化するデジタル環境において、クライアントの成功を追求しています。メディア産業、広告産業、ゲーム産業、AI開発の分野で培った専門知識と経験を活かし、クライアントの課題に対して最適なソリューションを提供します。</p>
+            </div>
+        </section>
+        
+        <section class="top_main_right clearfix"><div>
+          <img src="image/company_02.png" width="667" height="500" alt=""/> 
+          
+          <h2><span>クリエイティブな</span><span>未来を提供</span></h2>
+          <p>私たちのチームは、クリエイティブなアイデアと先進的なテクノロジーを融合させ、クライアントのビジネスに革新をもたらします。私たちはデジタルマーケティングの最新動向を常に追い求め、戦略的なキャンペーンの立案や効果的なコンテンツの制作を行います。</p>
+          </div>
+        </section>
+        
+        
+        <section class="top_main_left clearfix"><div>
+          <img src="image/company_03.png" width="667" height="500" alt=""/>  
+          <h2><span>明快な</span><span>情報伝達</span></h2>
+          <p>当社のウェブサイトは、情報をわかりやすく伝えることを重視しています。私たちは鮮明なビジョンとユーザーフォーカスを持ち、クライアントのニーズに応えるために努力しています。また、私たちの強みであるデータ分析とパフォーマンスの評価に基づき、持続的な成果を提供します。</p>       
+          </div>
+        </section>
+        
+        <section class="top_main_right clearfix"><div>
+          <img src="image/company_04.png" width="667" height="500" alt=""/> 
+          
+          <h2><span>成果につながる</span><span>信頼関係</span></h2>
+          <p>私たちは顧客とのパートナーシップを重視し、お客様のビジネスの成長を共に支えます。私たちのコーポレートサイトは、私たちの理念と価値観を反映し、信頼と透明性を提供します。私たちの成功は、お客様の成功に繋がることを心から信じています。</p>
+          </div>
+        </section>
+        <section class="">
+          <p class="main_center clearfix" id="main_col8">ぜひ、当社のウェブサイトを訪れて、私たちのサービスと専門知識について詳しくご覧ください。私たちは常に革新的なソリューションを提供し、お客様のビジネスを次のレベルに導くことをお約束します。一緒に成功の道を歩みましょう。</p>
+        </section>
+      </section>
+  <div id="news_wrapper">
+  <div id="container1">
+  </div>
+      <section class="scrollify news_wrappe col10 main_colr" id="news">
+		  
+        <h1 class="c-text--center">NEWS</h1>
+		  
+        <div id="demo03" class="card03 l-section">
+          <div class="l-inner">
+            <!-- Swiper START -->
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide">
+                <article class="slide">
+                  <div class="slide-media img-cover"><img src="image/news_03.png"></div>
+                  <div class="slide-content">
+                    <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
+                    <h4 class="slide-title">【RECRUIT】外国人採用のご案内</h4>
+                  </div>
+                </article>
+                </a>
+                <a href="#" class="swiper-slide">
+                <article class="slide">
+                  <div class="slide-media img-cover"><img src="image/news_02.png" alt=""></div>
+                  <div class="slide-content">
+                    <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
+                    <h4 class="slide-title">【Rim-media】効率300%up?! SNS活用術！</h4>
+                  </div>
+                </article>
+                </a>
+                <a href="#" class="swiper-slide">
+                <article class="slide">
+                  <div class="slide-media img-cover"><img src="image/news_01.png" alt=""></div>
+                  <div class="slide-content">
+                    <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
+                    <h4 class="slide-title">【COMPANY】女性向け支援制度のご案内</h4>
+                  </div>
+                </article>
+                </a>
+                <a href="#" class="swiper-slide">
+                <article class="slide">
+                  <div class="slide-media img-cover"><img src="image/news_04.png" alt=""></div>
+                  <div class="slide-content">
+                    <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
+                    <h4 class="slide-title">【SURVICE】音楽サービス「MAV」リリースのお知らせ【MAV】</h4>
+                  </div>
+                </article>
+                </a>
+                <a href="#" class="swiper-slide">
+                <article class="slide">
+                  <div class="slide-media img-cover"><img src="image/news_05.png" alt=""></div>
+                  <div class="slide-content">
+                    <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
+                    <h4 class="slide-title">【COMPANY】リモートワークの対応について</h4>
+                  </div>
+                </article>
+                </a>
+                <a href="#" class="swiper-slide">
+                <article class="slide">
+                  <div class="slide-media img-cover"><img src="image/news_06.png" alt=""></div>
+                  <div class="slide-content">
+                    <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
+                    <h4 class="slide-title">【RimCon】今月のRim賞の発表</h4>
+                  </div>
+                </article>
+                </a>
+                <a href="#" class="swiper-slide">
+                <article class="slide">
+                  <div class="slide-media img-cover"><img src="image/news_07.png" alt=""></div>
+                  <div class="slide-content">
+                    <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
+                    <h4 class="slide-title">【COMPANY】Rimalise独自のSDG’ｓへの取り組み</h4>
+                  </div>
+                </article>
+                </a>
+                <a href="#" class="swiper-slide">
+                <article class="slide">
+                  <div class="slide-media img-cover"><img src="image/news_16.png" alt=""></div>
+                  <div class="slide-content">
+                    <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
+                    <h4 class="slide-title">【SURVICE】RoGaze香港CUPレポート【e-sports】</h4>
+                  </div>
+                </article>
+                </a>
+                
+              </div><!-- /swiper-wrapper -->
+              <!-- Swiper START -->
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <a href="#" class="swiper-slide">
+                  <article class="slide">
+                    <div class="slide-media img-cover"><img src="image/news_08.png"></div>
+                    <div class="slide-content">
+                      <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
+                      <h4 class="slide-title">【COMPANY】東京第二支店の開設について</h4>
+                    </div>
+                  </article>
+                  </a>
+                  <a href="#" class="swiper-slide">
+                  <article class="slide">
+                    <div class="slide-media img-cover"><img src="image/news_09.png" alt=""></div>
+                    <div class="slide-content">
+                      <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
+                      <h4 class="slide-title">【Rim-media】Rim-School開校！遊びながら最新技術を学べるワークショップ♪</h4>
+                    </div>
+                  </article>
+                  </a>
+                  <a href="#" class="swiper-slide">
+                  <article class="slide">
+                    <div class="slide-media img-cover"><img src="image/news_10.png" alt=""></div>
+                    <div class="slide-content">
+                      <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
+                      <h4 class="slide-title">【SURVICE】City-Natureプロジェクトリーダーインタビュー</h4>
+                    </div>
+                  </article>
+                  </a>
+                  <a href="#" class="swiper-slide">
+                  <article class="slide">
+                    <div class="slide-media img-cover"><img src="image/news_11.png" alt=""></div>
+                    <div class="slide-content">
+                      <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
+                      <h4 class="slide-title">【Rim-media】輸送業で活用されるRimalise</h4>
+                    </div>
+                  </article>
+                  </a>
+                  <a href="#" class="swiper-slide">
+                  <article class="slide">
+                    <div class="slide-media img-cover"><img src="image/news_12.png" alt=""></div>
+                    <div class="slide-content">
+                      <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
+                      <h4 class="slide-title">【Rim-media】スーパーで活用されるRimalise</h4>
+                    </div>
+                  </article>
+                  </a>
+                  <a href="#" class="swiper-slide">
+                  <article class="slide">
+                    <div class="slide-media img-cover"><img src="image/news_13.png" alt=""></div>
+                    <div class="slide-content">
+                      <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
+                      <h4 class="slide-title">【Rim-media】電車で活用されるRimalise</h4>
+                    </div>
+                  </article>
+                  </a>
+                  <a href="#" class="swiper-slide">
+                  <article class="slide">
+                    <div class="slide-media img-cover"><img src="image/news_14.png" alt=""></div>
+                    <div class="slide-content">
+                      <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
+                      <h4 class="slide-title">【SURVICE】今週のおすすめ【ReMovie】</h4>
+                    </div>
+                  </article>
+                  </a>
+                  <a href="#" class="swiper-slide">
+                  <article class="slide">
+                    <div class="slide-media img-cover"><img src="image/news_15.png" alt=""></div>
+                    <div class="slide-content">
+                      <time class="slide-date" datetime="2021-12-01">2021.12.01</time>
+                      <h4 class="slide-title">【COMPANY】AI開発に関する新事業を立ち上げました</h4>
+                    </div>
+                  </article>
+                  </a>
+                </div><!-- /swiper-wrapper -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div><!-- /swiper -->
+              
+            </div>
+  </div>
+          </div>
+        
+        
+        </section>
+  </div>
+
+	<section class="access_wrapper scrollify" id="access">
+      <div class="main_col">
+        <h1 class="c-text--center" id="access_h1">ACCESS</h1>
+          <!--<p>〒150-0042<br>
+			  東京都渋谷区宇田川町４０−１<br>
+			  住友不動産渋谷タワー
+		  </p>-->
+      </div>
+		<div class="l-section wit_max_inportant l-gmap animated in">
+		  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6075.467107053668!2d139.69330104807236!3d35.66004467996294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d214f5f173d%3A0x9a229870645f46b4!2z5L2P5Y-L5LiN5YuV55Sj5riL6LC344K_44Ov44O8IChBYmVtYSBUb3dlcnMp!5e0!3m2!1sja!2sjp!4v1685078333656!5m2!1sja!2sjp"　allowfullscreen=""></iframe>
+      </div>
+
+
+
+	<section class="big_but col12">
+    <a href="#">
+    <h1 class="h1_but">SERVICE→</h1>
+    </a>
+    <a href="#">
+    <h1 class="h1_but">RECRUIT→</h1>
+    </a>
+</section>
+	 <footer class="l-footer">
+        <div class="l-footer--inner">
+            <div class="l-footer__logo c-text--center">
+<a href="#"><img src="image/logo_type.png" alt=""></a>
+			</div>
+			<div class="c-text--center">
+				<ul>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Instagram</a></li>
+					<li><a href="#">Twitter</a></li>
+					<li><a href="#">Youtube</a></li>
+					<li><a href="#">LINE</a></li></ul>
+            </div>
+            <div class="c-text--center">
+				<ul>
+					<li><a href="#">サイトマップ</a></li>
+					<li><a href="#">プライバシーポリシー</a></li>
+					<li><a href="#">サイトご利用規約</a></li>
+					<li><a href="#">お問い合わせ</a></li>
+				</ul>
+            </div>
+            <div class="l-copyright c-text--center">
+                Copyright &copy; Rimalise Inc. All rights reserved.
+            </div>
+        </div>
+    </footer>
+</section>
+</main>
+
+	
+	<!--start_logo-->
+	<div class="start">
+    <p><img src="image/logo_type_small.png" alt=""></p>
+</div>
+	
+	
+
+
+	<!--SwiperJS-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="JavaScript/use_Swiper.js"></script>
+<script src="JavaScript/use_news_Swiper.js"></script>
+
+	
+	
+<!--start_logoJS-->
+		<script src="JavaScript/use_start_logo.js"></script>
+	
+<!--scrollifyJS-->
+<script src="JavaScript/use_scrollify.js"></script>
+
+<!---->
+	<script src="JavaScript/use_sketch.js"></script>
+	
+</body>
+</html>
